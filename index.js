@@ -19,7 +19,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
    - does not modify the original object (it is non-destructive) */
 
   function deleteFromObjectByKey(object, key) {
-    Object.assign({}, object, { [key]: value })
+    var newObj = Object.assign({}, object)
   }
 
 /* - does not modify the original object (it is non-destructive)
